@@ -23,16 +23,6 @@ Function that runs the requested algorithm and returns the accuracy metrics.
 
 Use (LogisticRegression,KNeighborsClassifier,GaussianNB,DecisionTreeClassifier,RandomForestClassifier,GradientBoostingClassifier)
 
-
-                          
-KMeans(init='k-means++', n_clusters=cluster_n, n_init=10)
-
-Plot distributions of the factors for each cluster.
-
-Compare happiness score distribution for the clusters.
-
-Plot map visualization of coutries clustered by the factors contributing to happiness.
-
 Logistic Regression find best parameters (penaalty,class_weight,C,intercept_scaling) using RandomizedSearchCV 
 find max r2 score for Logistic Regression.
 Find mean validation score.
