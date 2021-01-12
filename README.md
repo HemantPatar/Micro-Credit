@@ -21,7 +21,7 @@ Train test split.
 
 Function that runs the requested algorithm and returns the accuracy metrics.
 
-Use (LogisticRegression,KNeighborsClassifier,GaussianNB,DecisionTreeClassifier,RandomForestClassifier,GradientBoostingClassifier)
+Use (LogisticRegression,KNeighborsClassifier,GaussianNB,DecisionTreeClassifier,SGDClassifier,RandomForestClassifier,GradientBoostingClassifier)
 
 Logistic Regression find best parameters (penaalty,class_weight,C,intercept_scaling) using RandomizedSearchCV 
 find max r2 score for Logistic Regression.
